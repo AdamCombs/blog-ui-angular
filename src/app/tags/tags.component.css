@@ -1,0 +1,42 @@
+.tags{
+  background-color: white;
+  font-family: Century Gothic, sans-serif;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+  0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.display-inline{
+  display: inline;
+}
+
+.tag-button{
+	background-color: black;
+	color: white;
+	font-size: 14px;
+  height: 4vh;
+
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+}
+
+.tag-button:hover{
+	background-color: white;
+  color: black;
+  border: 0.1em solid black;
+}
+
+.header-background{
+  background-color:lightgray;
+}
+
+.padding-header{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.padding-button{
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+}

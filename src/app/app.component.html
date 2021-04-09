@@ -1,0 +1,13 @@
+<div  class="grid-container">
+  <app-header class="grid-header"></app-header>
+  <app-post [posts$]="posts$" class="grid-main" #posts></app-post>
+  <div class="grid-side">
+    <app-profile></app-profile>
+    <app-sidebar (updatePostByID)="updatePostsID($event)"></app-sidebar>
+    <app-tags [tags$]="tags$" (updatePostByTag)="updatePostsTag($event)"></app-tags>
+  </div>
+  <app-footer class="grid-footer"></app-footer>
+</div>
+
+<!-- So in quotes are the items in the app Parent Component -->
+<!-- In the Brackets and Parenthesis are what's in the Child -->

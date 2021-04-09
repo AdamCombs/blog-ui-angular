@@ -1,0 +1,62 @@
+.side-bar{
+  background-color: white;
+  font-family: Century Gothic, sans-serif;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+  0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.font{
+  font-size: 1vw;
+  font-family: Century Gothic, sans-serif;
+}
+
+.post-button{
+  width: 30vw;
+	background-color: white;
+  color: black;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.padding-top{
+  padding-top: 2vh;
+}
+
+.header-background{
+  background-color:lightgray;
+}
+
+.padding-header{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.post-button:hover {
+  background-color: grey;
+  color: white;
+  padding: 0.5px;
+  border: 1px;
+}
+
+.display-flex{
+  display: inline-flex;
+  align-content:flex-start;
+}
+
+.resize{
+  object-fit: cover;
+  object-position: center;
+  height: 13vh;
+  width: 13vw;
+}
+
+.text{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  word-wrap: break-word;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+

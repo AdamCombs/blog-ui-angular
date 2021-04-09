@@ -1,0 +1,8 @@
+<div class="tags">
+  <h1 class="padding-header header-background"> Tags </h1>
+  <div *ngFor="let tag of tags$" class="display-inline">
+      <button class="tag-button padding-button" (click)="clickTag(tag.name)">
+        {{tag.name}}
+      </button>
+  </div>
+</div>

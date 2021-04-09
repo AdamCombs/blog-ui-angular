@@ -1,0 +1,10 @@
+<div class="side-bar">
+  <h1 class="padding-header header-background">Top Posts</h1>
+  <button class="post-button display-flex" *ngFor="let post of posts$.slice(0, 4)" (click)="clickPost(post.id)">
+      <img class="resize" src="{{ 'http://endless-api.herokuapp.com' + post.feature_image}}">
+      <div class="text font">
+        <p>{{post.title}}</p>
+        <p>{{post.created_at | date:'medium'}}</p>
+      </div>
+  </button>
+</div>

@@ -1,0 +1,17 @@
+
+.dark-grey{
+	background-color: #606060;
+}
+
+.center-text{
+  text-align: center;
+  color: white;
+}
+
+.white-text{
+  color: white;
+}
+
+.white-text:hover{
+  color:blue;
+}
