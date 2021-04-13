@@ -2,6 +2,8 @@ import { PostService } from '../post.service';
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Post } from '../post.model';
 
+import { url } from '../global-variables'
+
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
@@ -11,6 +13,8 @@ import { Post } from '../post.model';
 export class SidebarComponent implements OnInit {
 
   posts$: Post[];
+
+  url: string = url;
 
   @Output() updatePostByID = new EventEmitter<number>();
 
