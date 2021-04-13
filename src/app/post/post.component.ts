@@ -1,5 +1,7 @@
 import { PostService } from '../post.service';
 
+import { url } from '../global-variables'
+
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Post } from '../post.model';
 
@@ -12,6 +14,8 @@ import { Post } from '../post.model';
 export class PostComponent implements OnChanges {
 
   @Input() posts$: Post[];
+
+  url: string = url;
 
   constructor(private service: PostService){
   }

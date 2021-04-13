@@ -1,6 +1,6 @@
 <div class="padding-bottom" *ngFor="let post of posts$">
-  <div class="post">
-    <img class="resize" src="{{ 'http://endless-api.herokuapp.com' + post.feature_image}}">
+  <div class="card-outline">
+    <img class="width-100" src="{{ url + post.feature_image }}">
     <h1>{{post.title}}</h1>
     <h1>{{post.created_at | date:'medium'}}</h1>
     <p class="content font">{{post.content}}</p>
@@ -11,3 +11,4 @@
     </div>
   </div>
 </div>
+

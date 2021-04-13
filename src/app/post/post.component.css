@@ -1,40 +1,5 @@
-
-.post{
-  background-color: white;
-  font-family: Century Gothic, sans-serif;
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
-  0 4px 20px 0 rgba(0,0,0,0.19);
-}
-
-.resize{
-  height: 5%;
-  width: 100%;
-}
-
-.side-crop{
-  width: 100%;
-}
-
-.tag-button{
-	background-color: black;
-	color: white;
-	font-size: 14px;
-  height: 4vh;
-
-  padding:0.3em 1.2em;
-  margin:0 0.1em 0.1em 0;
-  border:0.16em solid rgba(255,255,255,0);
-  border-radius:2em;
-}
-
 .padding-bottom{
   padding-bottom: 3vh;
-}
-
-.tag-button:hover{
-	background-color: white;
-  color: black;
-  border: 0.1em solid black;
 }
 
 .content{
@@ -50,9 +15,4 @@
 .padding-button{
   margin-bottom: 1vh;
   margin-left: 1vw;
-}
-
-.font{
-  font-size: 1vw;
-  font-family: Century Gothic, sans-serif;
 }
